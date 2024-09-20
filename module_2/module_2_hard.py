@@ -5,7 +5,6 @@ def find_divisors(n):
             divisors.append(i)
     return divisors
 
-
 def get_password(n):
     result = ""
     divisors = find_divisors(n)
@@ -17,7 +16,6 @@ def get_password(n):
                     result += str(i) + str(j)
                     break
     return result
-
 
 n = int(input("Введите число (от 3 до 20): "))
 password = get_password(n)
