@@ -4,8 +4,7 @@ def print_params(a=1, b='строка', c=True):
 
 print_params()
 print_params(5)
-print_params(
-    b=25)
+print_params(b=25)
 print_params(c=[1, 2, 3])
 values_list = [10, 'Пример строки', False]
 values_dict = {'a': 42, 'b': 'Другое значение', 'c': None}
